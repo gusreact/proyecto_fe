@@ -4,7 +4,7 @@
  grid-template-rows: auto 1fr auto;
  gap: 10px;
 }
-.flex-menu {
+.productos,.flex-menu {
  display: flex;
  flex-direction: column;
  gap: 5px;}
@@ -13,4 +13,9 @@
 }
 .main {
  grid-column: 2 / 3;
+}
+.nombre-producto {
+ font-size: 1.5em;
+ margin: 10px 0 5px 0;
+ font-family: 'Roboto', sans-serif;
 }
