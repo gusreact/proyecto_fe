@@ -12,14 +12,26 @@
         <header class="header">Cabecera</header>
         <nav class="menu">
             <ul class="flex-menu">
-                <li><i class="fa fa-home"></i><b>Inicio</b></li>
+                <li><i class="fa fa-home"></i><a href="index.html">Inicio</a></li>
                 <li><i class="fa fa-car"></i><a href="#">Productos</a></li>
                 <li><i class="fa fa-car"></i><a href="#">Reseñas</a></li>
-                <li><i class="fa fa-phone"></i><a href="contacto.html">Contacto</a></li>
+                <li><i class="fa fa-phone"></i><b>Contacto</b></li>
             </ul>
         </nav>
         <section class="main">
-            
+            <form action="https://formspree.io/f/xyznpzag" method="POST">
+                <input type="hidden" name="_redirect" value="gracias.html">
+                <label>Nombre:
+                    <input type="text" name="nombre" required>
+                </label><br>
+                <label>Email:
+                    <input type="email" name="email" required>
+                </label><br>
+                <label>Mensaje:
+                    <textarea name="mensaje" required></textarea>
+                </label><br>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
         <footer class="footer">Pie de página</footer>
     </div>
